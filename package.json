@@ -1,0 +1,21 @@
+{
+  "name": "hvex-assignment-test",
+  "version": "1.0.0",
+  "description": "HVex MERN app for test assignment",
+  "main": "server/index.js",
+  "scripts": {
+    "client-dev": "vite",
+    "client-build": "tsc && vite build",
+    "serve": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icaroglauco-lab/hvex-assignment-test.git"
+  },
+  "author": "Icaro Glauco de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icaroglauco-lab/hvex-assignment-test/issues"
+  },
+  "homepage": "https://github.com/icaroglauco-lab/hvex-assignment-test#readme"
+}

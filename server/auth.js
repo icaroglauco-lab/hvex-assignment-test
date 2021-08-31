@@ -1,4 +1,4 @@
-const dblayer = require('./mongodb_connection');
+const dblayer = require('./dblayer');
 
 
 const auth = async (req, res) => {
