@@ -1,4 +1,3 @@
-const { MongoClient } = require('mongodb');
 const mongojs = require('mongojs');
 
 // mongodb login: adm; senha: B7Ji4yvQzLtImsGp
