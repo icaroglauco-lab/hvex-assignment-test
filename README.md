@@ -34,5 +34,5 @@ Now, the client side
 ## How to use
 
 - Clone this repository (git clone https://github.com/icaroglauco-lab/hvex-assignment-test.git) or download its zip file
-
+- Change server/dblayer.js secret token for mongodb online atlas
 - Then run its serve script: ```npm run serve``` 
