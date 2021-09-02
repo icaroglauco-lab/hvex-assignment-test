@@ -1,7 +1,6 @@
 const mongojs = require('mongojs');
 
-// mongodb login: adm; senha: B7Ji4yvQzLtImsGp
-const uri = "mongodb+srv://adm:B7Ji4yvQzLtImsGp@cluster0.xcuvy.mongodb.net/basic_room_crud?retryWrites=true&w=majority";
+const uri = "mongodb+srv://adm:<password>@cluster0.xcuvy.mongodb.net/basic_room_crud?retryWrites=true&w=majority";
 
 const db = mongojs(uri, ['users', 'messages', 'rooms'])
 
