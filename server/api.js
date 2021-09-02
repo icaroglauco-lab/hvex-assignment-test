@@ -1,16 +1,6 @@
 const dblayer = require('./dblayer');
 const validate = require('./validates');
 
-// DONE
-// req read /rooms => [uids]
-// req read /messages?room=uid => [<{"user": uid, "text": string, "room": uid}>]
-// req /delete_message => success boolean
-// req /users => [<{"user_name": string, "name": string, "is_connected": boolean, "last_acess": dateString}>]
-// req /create_user => success boolean, uid
-// req /edit_user => sucess boolean, uid
-// req /delete_user => sucess boolean, liberated uid:
-// - query and delete messages related to user
-
 module.exports = {
    'get' : {
       '/user': (req, res) => {
@@ -63,7 +53,6 @@ module.exports = {
          if(!validate.message(req.body)) return res.status(402).json({message: "Ivalid format"})
          dblayer.create({
             at: 'messages',
-            // TODO: create a server side validation
             doc: req.body,
             callback: (err, value) => {
                if(err) {
@@ -87,7 +76,6 @@ module.exports = {
          if(!validate.user(req.body.with)) return res.status(402).json({message: "Ivalid format"})
          dblayer.update({
             at: 'users',
-            // TODO: create a server side validation
             doc: req.body,
             callback: (err, value) => {
                if(err) {

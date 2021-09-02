@@ -4,8 +4,8 @@
   "description": "HVex MERN app for test assignment",
   "main": "server/index.js",
   "scripts": {
-    "client-dev": "vite",
-    "client-build": "tsc && vite build",
+    "client-dev": "cd client && node node_modules/vite/bin/vite.js",
+    "client-build": "cd client && tsc && node node_modules/vite/bin/vite.js build",
     "serve": "node ."
   },
   "repository": {

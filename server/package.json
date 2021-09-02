@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Ícaro Glauco de Oliveira",
   "license": "MIT",
+  "scripts": {
+    "serve": "node ."
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",

@@ -8,13 +8,13 @@
 
 This project is created to apply for a vancacy role as junior developer at HVex, and it follows this **[document](https://drive.google.com/drive/folders/197H-LjU6mNSoflwLIm2UzwcqTpZ9YAxS)**.
 
-Its a M.E.R.N. stack application for a simple chatroom served with user crud and auth system.
+Its a Mongo Express Node stack application for a simple chatroom served with user crud and auth system.
+
+### I wanted to create the R from MERN, for the client side front-end, but I found myself a little bit overwhelmed, so I decided to just keep with the server side. Even tho its a server side application, I have no major skills with security and such and I didnt want to waste too much time on this.
 
 ## Project struture
 
-This project is divided into two major folders: client and server.
-
-The server is responsible for mongodb integration, authentication, socket.io protocols, in memory messages allocation and rest api.
+The server is responsible for mongodb integration, authentication;
 
 You can find the following files and its responsabilities:
 
@@ -29,12 +29,10 @@ You can find the following files and its responsabilities:
 - index.js: imperative sumarized server script, glueing up express server with auth middleware, db api endpoints, socket-io events and client-side linkage
 
 Now, the client side
-
+**TODO**
 
 ## How to use
 
-Clone this repository (git clone https://github.com/icaroglauco-lab/hvex-assignment-test.git) or download its zip file
+- Clone this repository (git clone https://github.com/icaroglauco-lab/hvex-assignment-test.git) or download its zip file
 
-Then run its serve script
-
-```npm run serve``` 
+- Then run its serve script: ```npm run serve``` 
